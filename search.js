@@ -43,7 +43,7 @@ function askForFileName() {
 async function main() {
     if (process.argv.length !== 3) {
         console.error('Please provide a Roblox user ID.');
-        console.error(`Usage: node ${process.argv[1]} [Roblox User ID]`);
+        console.error(`Usage: node search.exe [Roblox User ID]`);
         process.exit(1);
     }
 
